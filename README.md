@@ -15,7 +15,7 @@ In the folder 'pc' is a processing script.
 For that you will need [processing 3](https://processing.org/) (java based) and the librarys [drop](http://transfluxus.github.io/drop/) and Serial (installed through library manager).
 Change the line 'String port = "COM10"' to the COM port of your arduino.
 Now run the script, you can now drag'n drop a ym file in the new window.
-If all is done correctly, you will now hear you'r tune.
+If all is done correctly, you will now hear your tune.
 
 ## how it woks
 (aka i want to do it different)
@@ -23,7 +23,7 @@ It's verry simple.
 The arduino will listen for incomming serial messages.
 It will then fill up a buffer with the data received.
 When the buffer is full (16 bytes) it will push the buffer out to the chip.
-To write you'r own music streamer you just have to stream the raw register dump data to the arduino and eh voilà, music.
+To write your own music streamer you just have to stream the raw register dump data to the arduino and eh voilà, music.
 
 ## 'I don't have a arduino mega'
 If you don't have a arduino mega use the original code from [Florent Flament](https://github.com/FlorentFlament/ym2149-test).
